@@ -1,0 +1,65 @@
+@import url ('https://fonts.googleapis.com/css2? family = Liu + Jian + Mao + Cao & family = Roboto: ital, wght @ 0,300; 0,400; 1,100 & display = swap');
+
+:root {
+    --fontprimaria: 'Liu Jian Mao Cao', letra cursiva;
+    --fontsecundaria:  'Roboto', sans-serif;
+
+}
+*{
+    padding:0;
+    margin: 0;
+    position: relative;
+    font-family: var(--fontsecundaria);
+    color: #000;
+}
+/*esse aqui e menu de opcoes que vai vira display flex*/
+header div div nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.logo{
+    height: 4em;
+}
+.opcao{
+    font-size: 1em;
+    margin:2em 1em 1em 1em ;
+    text-decoration: none;
+}
+.login{
+    color:#4A00E0;
+    margin-left: auto;
+    margin-right: 4em;
+}
+
+.menu-principal {
+    height: 100vh;
+    width: 100%;
+    background: url(/arquivo/imagem02.jpg);
+    background-attachment:scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    object-fit: cover;
+    color:#fff ;
+}
+.titulo{
+    font-family: var(--fontprimaria);
+    font-size: 3em;
+    margin-left: 10%;
+    width: 40%;
+
+}
+.sub-titulo{
+    font-family: var(--fontprimaria);
+    font-size: 2em;
+    width: 40%;
+    margin-left: 10%;
+}
+.formulario{
+    margin-left:auto;
+}
