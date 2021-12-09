@@ -1,8 +1,9 @@
 @import url ('https://fonts.googleapis.com/css2? family = Liu + Jian + Mao + Cao & family = Roboto: ital, wght @ 0,300; 0,400; 1,100 & display = swap');
-
+@import url ('https://fonts.googleapis.com/css2? family = Readex + Pro: wght @ 500 & display = swap');
 :root {
     --fontprimaria: 'Liu Jian Mao Cao', letra cursiva;
     --fontsecundaria:  'Roboto', sans-serif;
+    --fontterciaria: 'Readex Pro', sans-serif;
 
 }
 *{
@@ -17,6 +18,9 @@ header div div nav {
     display:flex;
     flex-direction: row;
     justify-content: start;
+    background-color: #fff;
+    position:static;
+   
 }
 .logo{
     height: 4em;
@@ -45,13 +49,14 @@ header div div nav {
     justify-content: center;
     flex-direction: column;
     object-fit: cover;
-    color:#fff ;
 }
 .titulo{
     font-family: var(--fontprimaria);
     font-size: 3em;
     margin-left: 10%;
     width: 40%;
+    color: #fff;
+    padding: 4px;
 
 }
 .sub-titulo{
@@ -59,7 +64,77 @@ header div div nav {
     font-size: 2em;
     width: 40%;
     margin-left: 10%;
+    color: #fff;
 }
 .formulario{
     margin-left:auto;
+    border: 1px solid #fff;
+    padding: 2em;
+    height: 15em;
+    background-color: #fff;
+    margin-right: 3em;
+    bottom: 15em; 
+    width: 15%;
+    border-radius: 2em;
+}
+.titulo-form{
+    font-family: var(--fontsecundaria);
+    font-size: 1.5em;
+    margin-bottom: 0.8rem;
+}
+.input{
+    padding-bottom: 10px;
+    margin: 2em 1em 1em 1em;
+    list-style: none;
+    font-size: 1em;
+    border: none;
+    border-bottom: 1px solid #4d4d4d;
+}
+.botao-input{
+    font-size: 1em;
+    margin-top: 2em;
+    padding: 1em 7em;
+    border-radius: 1em;
+    opacity: 0.5;
+    background-color: #d5d5d5;
+
+}
+section div div{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-left: 18%;
+    align-items: flex-start;
+    margin-top: 15%;
+
+}
+.imagem-cartao{
+    height: 18em;
+    padding-left: 1em;
+}
+.titulo-section{
+    font-size: 1.9em;
+    font-family: var(--fontprimaria);
+    color: #4A00E0;
+}
+.conteudo{
+    font-family:var(--fontterciaria);
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+.saibamais{
+    font-size: 0.8em;
+    margin-bottom: 1em;
+    color: #4A00E0;
+    text-decoration: none;
+
+}
+.parte2{
+    background-color: #d5d5d5;
+    border: 1px solid #000;
+}
+.conteudo{
+    
 }
