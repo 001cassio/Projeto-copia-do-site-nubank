@@ -1,0 +1,186 @@
+@import url ('https://fonts.googleapis.com/css2? family = Liu + Jian + Mao + Cao & family = Roboto: ital, wght @ 0,300; 0,400; 1,100 & display = swap');
+@import url ('https://fonts.googleapis.com/css2? family = Readex + Pro: wght @ 500 & display = swap');
+:root {
+    --fontprimaria: 'Liu Jian Mao Cao', letra cursiva;
+    --fontsecundaria:  'Roboto', sans-serif;
+    --fontterciaria: 'Readex Pro', sans-serif;
+
+}
+*{
+    padding:0;
+    margin: 0;
+    font-family: var(--fontsecundaria);
+    color: #000;
+}
+header div div nav{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 3em;
+    border: 1px solid black;
+    z-index: 50;
+    text-decoration: none;
+    animation: inicio 2s;
+}
+.opcao{
+    font-family: var(--fontprimaria);
+    font-size: 1.2em;
+    margin-left:3%;
+    color: #4A00E0;
+    text-decoration: none;
+}
+.opcao:hover{
+    zoom: 1.5;
+}
+.logo{
+    height: 5em;
+}
+.login{
+    margin-left: auto;
+    margin-right: 5%;
+}
+.menu-principal{
+    position: relative;
+    background-image: url(imagem02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(10,10%);
+    animation: inicio 2s;
+    
+}
+.titulo{
+    font-size: 3em;
+    color: #fff;
+    grid-column: 4/13;
+    grid-row: 4/5;
+}
+.sub-titulo{
+    margin-top: 1em;
+    font-size: 2em;
+    color: #fff;
+    grid-column: 4/10;
+    grid-row: 5/6;
+}
+.formulario{
+    background-color: #fff;
+    padding: 3em;
+    grid-column: 16/20;
+    grid-row: 4/7;
+
+
+}
+.titulo-form{
+    font-family: var(--fontterciaria);
+    font-size: 1.5em;
+    padding-bottom: 1em;
+
+}
+.input{
+    border: none;
+    margin: 2em 3em ;
+    text-align: center;
+    cursor: pointer;
+}
+input:hover{
+    border-bottom: 2px solid #4a00e0;
+}
+.botao-input{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1em 5em;
+    border-radius: 1em;
+    background-color: #fefefe;
+    opacity: 0.5;
+}
+.botao-input:hover{
+    opacity: 1;
+}
+@keyframes inicio{
+    0%{
+        transform: scale(1.3) rotate(-7deg);
+    }
+    100%{
+        transform: scale(1) rotate(0);
+    }
+}
+
+.conteudos{
+    position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(10,10%);
+    font-family: var(--fontprimaria);
+
+}
+.titulo-section{
+    font-size: 3em;
+    color: #4A00E0;
+    grid-column: 5/10;
+    grid-row: 4/5;
+}
+.conteudo{
+    font-size: 2.1em;
+    color: #000;
+    grid-column: 5/10;
+    grid-row: 5/7;
+}
+.saibamais{
+    font-size: 1.5em;
+    color: #4a00e0;
+    grid-column: 5/9;
+    grid-row: 7/8;
+}
+.saiba02{
+    font-size: 1.5em;
+    color: #4a00e0;
+    grid-column: 5/9;
+    grid-row: 6/8;
+}
+.imagem-cartao{
+    height: 25em;
+    color: #fff;
+    grid-column: 11/16;
+    grid-row: 3/7;
+}
+.parte2{
+    background-color: #e4e4e4;
+}
+.final{
+    background-image: url(https://blog.nubank.com.br/wp-content/uploads/2021/05/nubank-base10.jpg?w=1024);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.final2{
+    color: #fefefe;
+    font-size: 3em;
+    grid-column: 5/10;
+    grid-row: 4/7;
+}
+.saiba03{
+    color: #fefefe;
+    grid-column: 5/10;
+    grid-row: 7/8;
+}
+.contato{
+    font-size: 2em;
+}
+.contatos{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    list-style: none;
+}
